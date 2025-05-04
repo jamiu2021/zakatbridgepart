@@ -7,7 +7,7 @@ const WhyChoose = () => {
       <div className="flex flex-col items-center justify-center mb-10">
         <h1 className="text-[50px] font-bold">
           Why Choose <span className="text-[#0098CC]">Zakat</span>
-          <span className="text-[#F58601]">Bridge</span>?
+          <span className="text-[#F58601] ml-2">Bridge</span>?
         </h1>
         <p className="text-lg font-medium text-[#232323] mr-20 ml-20 text-center">
           Zakat Bridge is a tech-powered platform designed to simplify zakat
