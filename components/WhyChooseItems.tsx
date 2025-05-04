@@ -36,11 +36,11 @@ const whyChooseItems = [
 const WhyChooseItems = () => {
   return (
     
-      <ul className="grid grid-cols-2 gap-[30px]">
+      <div className="grid grid-cols-1 md:grid md:grid-cols-2 gap-[30px]">
         {whyChooseItems.map((item) => (
           <WhyChooseItem key={item.id} {...item} />
         ))}
-      </ul>
+      </div>
       
   );
 };
